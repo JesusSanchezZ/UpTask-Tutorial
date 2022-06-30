@@ -131,7 +131,7 @@ const host = process.env.HOST || '0.0.0.0';
 const port = process.env.PORT || 3000;
 
 app.listen(port, host, () => {
-	console.log('El servidor está funcionando');
+	console.log(`El servidor está funcionando en el puerto: ${port}`);
 })
 
 // engine template https://github.com/expressjs/express/wiki#templates-engines
